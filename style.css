@@ -1,0 +1,37 @@
+body{
+    align-items: center;
+    background-color: lightsteelblue;
+    font-family: Osaka;
+
+}
+#cityName{
+    font-size: 20px;
+    color: darkblue;
+}
+
+#directions{
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #0004;
+    letter-spacing: 1px;
+}
+#showWeather{
+    font-family: Osaka;
+    color: whitesmoke;
+}
+h1{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: Osaka;
+    text-shadow: 2.5px 2.5px #0004;
+    letter-spacing: 8px;
+}
+#myTable{
+    font-family: Osaka;
+    border-style: solid;
+    border-color: darkblue;
+    border-bottom-width: thin;
+    border-top-width: thin;
+    border-left-width: thin ;
+    border-right-width: thin;
+}
