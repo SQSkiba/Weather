@@ -2,7 +2,7 @@ $(document).ready(function(){
     $("#showResults").on("click",function(){
         var city = $("#enterCity").val();
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=ecc81b06bc1a0efe00898593102e7981",
+            url: "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=ecc81b06bc1a0efe00898593102e7981",
             dataType: "json",
             method: "GET",
             success: function (answer){
